@@ -2,6 +2,7 @@
 //               01234567
 let umastring = "um texto";
 
+console.log(umastring[4]);
 console.log(umastring.indexOf('texto')); // Achar index de determinado texto
 console.log(umastring.lastIndexOf('texto', 3)) // Achar index de trás pra frente
 
@@ -10,4 +11,4 @@ console.log(umastring.search(/[x]/g)) // Mostra o index do x
 
 console.log(umastring.replace('um', 'outro'));
 
-console.log(umastring.length); // Contar quantos caracteres tem
+console.log(umastring.length); // Contar quantos caracteres tem (No length não conta o 0 no começo, então começa no 1)
