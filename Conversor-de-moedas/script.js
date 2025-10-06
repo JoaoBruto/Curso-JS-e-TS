@@ -30,6 +30,7 @@ else if (opcao == 4) {
     // Euro para Real: multiplica pela taxa
     alert(`O valor convertido é de: ${(valor * taxaEuro).toFixed(2)} reais`)
 }
+
 else {
     // Trata opções inválidas
     alert("Opção inválida")
