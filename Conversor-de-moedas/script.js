@@ -7,8 +7,8 @@ const opcao = Number(prompt("Escolha a moeda que deseja converter: \n1 - Real pa
 const valor = Number(prompt("Digite o valor que deseja converter: "))
 
 // Taxas de câmbio atuais
-const taxaDolar = 5.34 // 1 dólar = 5.34 reais
-const taxaEuro = 6.26   // 1 euro = 6.26 reais
+const taxaDolar = 5.38 // 1 dólar = 5.38 reais
+const taxaEuro = 6.22   // 1 euro = 6.22 reais
 
 // Realiza a conversão baseada na opção escolhida
 if (opcao == 1) {
