@@ -11,3 +11,5 @@ console.log(num1.toString(2));
 
 let valor_pi = 3.14159265359;
 console.log(valor_pi.toFixed(2)); // 3.14
+
+console.log(Number.isInteger(num1)); // Descobrir se é um número inteiro (vai retornar true ou false)
