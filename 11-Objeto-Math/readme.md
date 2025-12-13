@@ -1,4 +1,4 @@
-# Objeto Math em JS
+# 🧮 Objeto Math em JS
 
 Para acontecer um arredondamento para o número inteiro mais baixo, se usa a propriedade "Math.floor()"
 
@@ -19,3 +19,5 @@ Math.pow() => Expoente. Tipo: Math.pow(2, 10) => 2 elevado a 10 (mesma coisa que
 
 Tem como fazer raiz quadrada sem usar propriedade especifica. Só fazer isso:
 9 ** (1/2); // Raiz quadrada ou 9 ** 0.5 (9 é só um exemplo)
+
+Em JS pode dividir por 0, diferente de outras linguagens, que dariam erro.
