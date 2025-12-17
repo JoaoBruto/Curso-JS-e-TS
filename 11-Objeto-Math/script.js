@@ -7,3 +7,4 @@
 // let num2 = Math.random(); // Gera um número aleatório entre 0 e 1. Mas 1 nunca será sorteado.
 // const aleatorio =  Math.random() * (10 - 5) + 5; // Número entre 5 e 10. Pega o maximo menos o minimo e depois soma o minimo.
 console.log(9 ** (1/2)); // Raiz quadrada sem propriedade.
+
