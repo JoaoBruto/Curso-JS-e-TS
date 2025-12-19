@@ -4,4 +4,6 @@ Pegar um elemento do HTML e modificar ele usando o JavaScript:
 const "" = document.getElementById();
 
 Para aparecer o elemento na tela do usuário, deve-se usar essa propriedade:
-"propriedade que a gente pegou o elemento do HTML pelo ID".inner.html = "propriedade quer que aconteça"
+"propriedade que a gente pegou o elemento do HTML pelo ID".innerHTML= "propriedade quer que aconteça"
+
+Primeiro se pega o elemento pelo "document.getElementById()" e depois modifica no HTML ".innerHTML"
