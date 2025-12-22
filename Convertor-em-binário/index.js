@@ -1,9 +1,7 @@
-const boas_vindas = alert("Seja bem-vindo(a) ao meu site!");
-console.log(boas_vindas);
+const escolher_numero = parseFloat(prompt("Digite o número que deseja converter para binário:"));
+const Numero_escolhido = document.getElementById("numero_escolhido")
+Numero_escolhido.innerHTML = escolher_numero;
 
-let numero_inteiro = parseInt(prompt("Digite o número que deseja converter para binário:"));
-
-let numero_binario = numero_inteiro.toString(2);
-const resultado = alert(`O número ${numero_inteiro} em binário é: ${numero_binario}`)
-
-console.log(numero_binario);
+let numero_binario = escolher_numero.toString(2);
+const Resultado = document.getElementById("numero_binario")
+Resultado.innerHTML = numero_binario;
