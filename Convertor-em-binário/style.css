@@ -1,8 +1,8 @@
 * {
-    background-color: rgb(36, 40, 44);;
+    background-color: rgb(36, 40, 44);; /* cor de fundo escura para todo o site */
 }
 
-h1 {
+h1 { /* estilo para o título principal */
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(221, 232, 241);
@@ -14,14 +14,14 @@ h2 {
     color: rgb(221, 232, 241);
 }
 
-#UX {
+#UX { /* estilo para o resultado */
     padding-top: 40px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(221, 232, 241);
 }
 
-button {
+button { /* estilo para o botão */
     align-items: center;
     margin-top: 40px;
     padding: 10px;
@@ -38,7 +38,7 @@ button {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-button:hover {
+button:hover { /* estilo para o botão quando o mouse está sobre ele */
     background-color: rgb(110, 179, 235);
     transform: scale(1.1);
     filter: brightness(1.2);
