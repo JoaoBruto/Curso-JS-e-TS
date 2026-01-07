@@ -20,3 +20,4 @@ console.log(nomes) // Imprime o array completo sem o primeiro elemento
 console.log(nomes.slice(1, 4)) // Pega uma fatia do array, do índice 1 ao índice 3 (o índice 4 não é incluído)
 
 
+    
