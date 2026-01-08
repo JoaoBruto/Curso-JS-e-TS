@@ -1,8 +1,8 @@
-const numero = 10;
-const divisor = 2;
+const numero1 = 15
+const numero2 = 3
 
-function dividir(a,b) {
-    return a / b;
+function soma(x, y) {
+    return x + y
 }
 
-console.log(dividir(numero, divisor));
+console.log(soma(numero1, numero2))
